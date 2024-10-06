@@ -1,0 +1,18 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "commonjs",
+        "allowSyntheticDefaultImports": true,
+      "baseUrl": ".",
+      "paths": {
+        "@controllers/*": ["src/controllers/*"],
+        "@models/*": ["src/models/*"],
+        "@services/*": ["src/services/*"],
+        "@utils/*": ["src/utils/*"],
+        "@routes/*": ["src/routes/*"],
+        "@middlewares/*": ["src/middlewares/*"],
+        "@validation/*": ["src/validation/*"],
+      }
+    },
+    "include": ["src/**/*"]
+  }
